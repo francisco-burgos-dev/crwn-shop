@@ -15,10 +15,8 @@ const Navigation = () => {
 	return (
 		<>
 			<div className="navigation">
-				<Link className="nav-link">
-					<CrwLogo className="logo-container" to="/">
-						Logo
-					</CrwLogo>
+				<Link className="logo-container" to="/">
+					<CrwLogo className="logo" />
 				</Link>
 				<div className="nav-links-container">
 					<Link className="nav-link" to="/shop">
