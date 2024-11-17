@@ -13,7 +13,7 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-	apiKey: "AIzaSyCDJ1H8cJT6c5cnVwSR-kLwrJDGSpuPnto",
+	apiKey: `${process.env.REACT_APP_API_KEY}`,
 	authDomain: "crwn-clothing-db-33df3.firebaseapp.com",
 	projectId: "crwn-clothing-db-33df3",
 	storageBucket: "crwn-clothing-db-33df3.firebasestorage.app",
