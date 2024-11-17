@@ -10,7 +10,7 @@ import { CartContext } from "../../context/cart.context";
 
 const Navigation = () => {
 	const { currentUser } = useContext(UserContext);
-	const { isCartopen } = useContext(CartContext);
+	const { isCartOpen } = useContext(CartContext);
 
 	return (
 		<>
@@ -35,7 +35,7 @@ const Navigation = () => {
 					)}
 					<CartIcon />
 				</div>
-				{isCartopen && <CardDropDown />}
+				{isCartOpen && <CardDropDown />}
 			</div>
 			<Outlet />
 		</>
