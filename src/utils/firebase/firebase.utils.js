@@ -31,6 +31,7 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
+// eslint-disable-next-line
 const app = initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
